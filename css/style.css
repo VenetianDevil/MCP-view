@@ -1812,10 +1812,16 @@ body.active-preloader-ovh {
   content: '';
   position: absolute;
   top: 0;
-  right: -30px;
+  right: -15px;
   background: #F5F6FA;
   width: 10000000px;
   height: 100%;
+}
+
+@media (min-width: 993px){
+  .we-believe-carousel:before {
+    right: -30px;
+  }
 }
 
 .we-believe-carousel .owl-dots {
