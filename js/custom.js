@@ -297,7 +297,6 @@ function stickyHeader() {
     if ($('.stricky').length) {
         var strickyScrollPos = 129;
         var stricky = $('.stricky');
-        console.log('top: ', $(window).scrollTop());
         if ($(window).scrollTop() > strickyScrollPos) {        	
             stricky.removeClass('slideIn animated');
             stricky.addClass('stricky-fixed slideInDown animated');
