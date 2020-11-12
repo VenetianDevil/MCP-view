@@ -295,15 +295,20 @@ function thmbxSlider() {
 
 function stickyHeader() {
     if ($('.stricky').length) {
-        var strickyScrollPos = 100;
+        var strickyScrollPos = 129;
         var stricky = $('.stricky');
+        console.log('top: ', $(window).scrollTop());
         if ($(window).scrollTop() > strickyScrollPos) {        	
             stricky.removeClass('slideIn animated');
             stricky.addClass('stricky-fixed slideInDown animated');
+            stricky[0].style.top = ($(window).scrollTop() - (2 * 129)) < 0 ? (($(window).scrollTop() - (2 * 129)) + 'px') : '0';
+            $('.avoid-site-jump')[0].style.position = 'relative'
             $('.scroll-to-top').fadeIn(500);
         } else if ($(this).scrollTop() <= strickyScrollPos) {
+            stricky[0].style.top = '0px';
             stricky.removeClass('stricky-fixed slideInDown animated');
             stricky.addClass('slideIn animated');
+            $('.avoid-site-jump')[0].style.position = 'absolute'
             $('.scroll-to-top').fadeOut(500);
         }
     };
