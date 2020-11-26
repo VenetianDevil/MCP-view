@@ -222,6 +222,10 @@ body.active-preloader-ovh {
   animation: sk-scaleout 1.0s infinite ease-in-out;
 }
 
+.fit-object-cover{
+  object-fit: cover;
+}
+
 @-webkit-keyframes sk-scaleout {
   0% {
     -webkit-transform: scale(0);
@@ -1486,6 +1490,11 @@ body.active-preloader-ovh {
 
 .project-details-page .img-box-wrapper .row+.row {
   margin-top: 30px;
+}
+
+.project-details-page .img-box-wrapper .row, .project-details-page .img-box-wrapper .row > div{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /************************** 
