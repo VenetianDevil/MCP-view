@@ -253,13 +253,13 @@ body.active-preloader-ovh {
 ***************************/
 
 .avoid-site-jump{
-  height: 128px;
+  height: 82px;
   position: absolute;
 }
 
 @media (max-width: 1024px){
   .avoid-site-jump{
-    height: 114px;
+    height: 82px;
   }
 }
 
@@ -345,7 +345,7 @@ body.active-preloader-ovh {
 
 .header-navigation ul.navigation-box>li {
   position: relative;
-  padding: 48.5px 0;
+  padding:  25px 0;
   display: inline-block;
 }
 
@@ -495,23 +495,13 @@ body.active-preloader-ovh {
   box-shadow: none;
 }
 
-.header-navigation.stricky-fixed .thm-container .navbar-brand {
-  padding-top: 27px;
-  padding-bottom: 27px;
-}
-
-.header-navigation.stricky-fixed ul.navigation-box>li {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 @media (max-width: 1200px){
   .header-navigation ul.navigation-box {
     max-width: 700px;
   }
   .header-navigation ul.navigation-box>li {
    float: revert;
-   padding: 16px 0px; 
+   padding: 5px 0px; 
   }
   .header-navigation.stricky-fixed ul.navigation-box>li {
     padding: 7px 0px; 

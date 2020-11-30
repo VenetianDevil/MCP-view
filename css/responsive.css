@@ -17,7 +17,7 @@
         margin-right: 0;
         border-color: #212121;
         background-color: transparent !important;
-        margin: 40px 0;
+        margin: 24px 0;
     }
     .navbar-default .navbar-toggle:hover {border-color: #FF4328;}
     .navbar-default .navbar-toggle .icon-bar {background: #212121;}
@@ -135,12 +135,12 @@
     .navbar-header {padding-right: 0px;}
     .header-navigation ul.navigation-box > li > ul.sub-menu > li > a .sub-nav-toggler {border-color: #F5F6FA}
     .header-navigation ul.navigation-box > li > ul.sub-menu > li > a .sub-nav-toggler .icon-bar {background-color: #F5F6FA}
-    .header-navigation .thm-container .navbar-brand {padding: 25px 0;}
+    .header-navigation .thm-container .navbar-brand {padding: 19px 0;}
     .header-navigation ul.navigation-box > li:hover > a,
     .header-navigation ul.navigation-box > li.current > a {background: #FF4328;color: #fff;}
     .header-navigation .thm-container {padding-right: 15px;}
     .header-navigation .thm-container .navbar-header {padding-right: 150px;}
-    .header-navigation .thm-container .right-side-box {top:30px;-webkit-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0);right: 15px;} 
+    .header-navigation .thm-container .right-side-box {top:12px;-webkit-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0);right: 15px;} 
     .header-navigation .thm-container .navbar-header {position: static;-webkit-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0);}
     .header-navigation ul.navigation-box > li::before {display: none;} 
 }

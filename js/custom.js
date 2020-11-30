@@ -295,12 +295,12 @@ function thmbxSlider() {
 
 function stickyHeader() {
     if ($('.stricky').length) {
-        var strickyScrollPos = 129;
+        var strickyScrollPos = 82;
         var stricky = $('.stricky');
         if ($(window).scrollTop() > strickyScrollPos) {        	
             stricky.removeClass('slideIn animated');
             stricky.addClass('stricky-fixed slideInDown animated');
-            stricky[0].style.top = ($(window).scrollTop() - (2 * 129)) < 0 ? (($(window).scrollTop() - (2 * 129)) + 'px') : '0';
+            stricky[0].style.top = ($(window).scrollTop() - (2 * 82)) < 0 ? (($(window).scrollTop() - (2 * 82)) + 'px') : '0';
             $('.avoid-site-jump')[0].style.position = 'relative'
             $('.scroll-to-top').fadeIn(500);
         } else if ($(this).scrollTop() <= strickyScrollPos) {
