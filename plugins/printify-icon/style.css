@@ -7,6 +7,7 @@
     url('fonts/printify-icon.svg?hce66p#printify-icon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 [class^="printify-icon-"], [class*=" printify-icon-"] {
