@@ -1,0 +1,24 @@
+{
+  "name": "mcp-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VenetianDevil/MCP-view.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VenetianDevil/MCP-view/issues"
+  },
+  "homepage": "https://github.com/VenetianDevil/MCP-view#readme",
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-replace": "^1.0.1",
+    "load-grunt-tasks": "^5.1.0"
+  }
+}
