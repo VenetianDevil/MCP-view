@@ -690,6 +690,7 @@ body.active-preloader-ovh {
   margin-top: 20px;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
+  text-shadow: -1px 0 black, 0px 1px black, 1px 0px black, 0 -1px black;
 }
 
 .slider-home-one .content h3 {
@@ -698,6 +699,7 @@ body.active-preloader-ovh {
   color: #FEC931;
   -webkit-animation-delay: .5s;
   animation-delay: .5s;
+  text-shadow: -1px 0 black, 0px 1px black, 1px 0px black, 0 -1px black;
 }
 
 .slider-home-one .content a.thm-btn {
