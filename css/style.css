@@ -1570,7 +1570,7 @@ body.active-preloader-ovh {
 }
 
 .call-to-action-one .overlay {
-  background: #ff4328 url(../img/cta-bg-1-1.jpg) center center no-repeat fixed;
+  background: #ff4328 url(../img/DSC_8898.jpg) center center no-repeat fixed;
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -1592,11 +1592,12 @@ body.active-preloader-ovh {
 }
 
 .call-to-action-one .inner-wrapper {
-  background: transparent url(../img/cta-bg-1-2.png) right center no-repeat fixed;
+  background: transparent url(../img/DSC_9113.jpg) right center no-repeat fixed;
   position: relative;
   z-index: 99;
   padding-top: 115px;
   padding-bottom: 120px;
+  background-size: 1037px 914px;
 }
 
 .call-to-action-one .thm-container {
