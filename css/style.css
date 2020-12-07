@@ -302,14 +302,13 @@ body.active-preloader-ovh {
 }
 
 .header-navigation .thm-container .right-side-box .social a {
-  width: 59px;
-  height: 59px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   color: #fff;
-  font-size: 18px;
-  line-height: 59px;
+  font-size: 16px;
   text-align: center;
-  line-height: 59px;
+  line-height: 40px;
 }
 
 .header-navigation .thm-container .right-side-box .social a+a {
@@ -410,12 +409,12 @@ body.active-preloader-ovh {
   visibility: visible;
 }
 
-.header-navigation ul.navigation-box>li>ul.sub-menu>li {
+.header-navigation ul.navigation-box>li>ul.sub-menu li {
   display: block;
   position: relative;
 }
 
-.header-navigation ul.navigation-box>li>ul.sub-menu>li>a {
+.header-navigation ul.navigation-box>li>ul.sub-menu li>a {
   font-size: 16px;
   color: #fff;
   font-weight: 500;
@@ -434,7 +433,7 @@ body.active-preloader-ovh {
   position: relative;
 }
 
-.header-navigation ul.navigation-box>li>.sub-menu>li>ul.sub-menu {
+.header-navigation ul.navigation-box>li>.sub-menu li>ul.sub-menu {
   position: absolute;
   top: 0%;
   left: 100%;
@@ -452,17 +451,17 @@ body.active-preloader-ovh {
   transition: opacity .4s ease, visibility .4s ease;
 }
 
-.header-navigation ul.navigation-box>li>.sub-menu>li:hover>ul.sub-menu {
+.header-navigation ul.navigation-box>li>.sub-menu li:hover>ul.sub-menu {
   opacity: 1;
   visibility: visible;
 }
 
-.header-navigation ul.navigation-box>li>.sub-menu>li>ul.sub-menu>li {
+.header-navigation ul.navigation-box>li>.sub-menu li>ul.sub-menu li {
   display: block;
   position: relative;
 }
 
-.header-navigation ul.navigation-box>li>.sub-menu>li>ul.sub-menu>li>a {
+.header-navigation ul.navigation-box>li>.sub-menu li>ul.sub-menu li>a {
   font-size: 16px;
   color: #fff;
   font-weight: 500;
@@ -475,7 +474,7 @@ body.active-preloader-ovh {
   transition: all .4s ease;
 }
 
-.header-navigation ul.navigation-box>li>.sub-menu>li>.sub-menu li:hover>a {
+.header-navigation ul.navigation-box>li>.sub-menu li>.sub-menu li:hover>a {
   background: #FE553D;
   color: #fff;
   position: relative;
@@ -493,6 +492,34 @@ body.active-preloader-ovh {
 
 .header-navigation.stricky-fixed .thm-container {
   box-shadow: none;
+}
+
+.link-to-picture-dropdown{
+  position: inherit !important;
+}
+
+.link-to-picture-dropdown ul.picture-menu{
+  width: 100%;
+}
+.link-to-picture-dropdown ul.picture-menu img, .link-to-picture-dropdown ul.picture-menu li>a >span{
+  display: block;
+}
+@media (min-width: 1025px){
+  .link-to-picture-dropdown ul.picture-menu li>a{
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 1025px){
+  .link-to-picture-dropdown ul.picture-menu .container{
+    width: 100%;
+  }
+  .link-to-picture-dropdown ul.picture-menu li.col-xs-12{
+    width: 100% !important;
+  }
+  .link-to-picture-dropdown ul.picture-menu img{
+    display: none;
+  }
 }
 
 @media (max-width: 1200px){
